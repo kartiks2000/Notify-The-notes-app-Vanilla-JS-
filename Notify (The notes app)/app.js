@@ -65,6 +65,7 @@ function addnote(){
 
     notes.push(temp);
 
+    id+=1;
     // will use when we also add a feature of deleting
     // updateUI();
 }
