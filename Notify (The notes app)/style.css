@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("/img/background-blur-clean-clear-531880.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.inputconsole{
+    margin: 2rem 1rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn{
+    align-self: center;
+    margin-top: 2rem;
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: gold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px rgba(0,0,0,0.);
+}
+
+.note{
+    background-color: cornsilk;
+    padding: 7px;
+}
+
+.note:focus{
+    border: none;
+    outline: none;
+}
+
+.display{
+    background-color: rosybrown;
+    width: 100vw;
+    height: 45vh;
+    margin: auto auto;
+    overflow: scroll;
+    text-align: center;
+    padding: 1rem;
+}
+
+.item{
+    margin: 1rem;
+}
+
+.date{
+    margin-bottom: .8rem;
+    font-size: 1.8rem;
+    color: skyblue;
+}
+
+.note-text{
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    max-width: 800px;
+    color: crimson;
+}
